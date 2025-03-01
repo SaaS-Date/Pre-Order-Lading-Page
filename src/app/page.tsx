@@ -4,7 +4,6 @@ import { Features } from "@/components/features/Features";
 import { Footer } from "@/components/footer/Footer";
 import { Header } from "@/components/header/Header";
 import { Hero } from "@/components/hero/Hero";
-import { Pricing } from "@/components/pricing/Pricing";
 import { Screenshots } from "@/components/screenshots_system/Screenshots-system";
 
 
@@ -16,9 +15,8 @@ export default function Home() {
         <Hero/>
         <Features/>
         <Screenshots/>
-        <Pricing/>
-        <FAQ/>
         <CTA/>
+        <FAQ/>
       </section>
       <Footer/>
     </main>
