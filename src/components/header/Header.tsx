@@ -6,7 +6,7 @@ import Image from 'next/image'
 interface HeaderProps {
   icon: {icon_src: string, icon_alt: string, href: string, width: number, height: number};
   links: {href: string, label: string}[];
-  button?: {label: string, color_font: string}
+  button?: {label: string, color_font?: string, backgroundColor?: string}
   backgroundColor?: string
   border_b: boolean
 }
@@ -36,7 +36,7 @@ export function Header({
           {button && (
             <Button
               className="hidden md:inline-flex"
-              style={{ color: button.color_font }}
+              style={{ backgroundColor: button.backgroundColor, color: button.color_font }}
             >
               {button.label}
             </Button>

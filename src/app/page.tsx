@@ -31,7 +31,17 @@ export default function Home() {
         border_b={true}
       />
       <section className="flex-1">
-        <Hero/>
+        <Hero
+          title_one= {{
+            value: "A mudanca de vida comeca aqui",
+          }}
+          sub_title={{
+            value: "Conheca o produto que steve jobs nao conseguiu construir"
+          }}
+          banner_background={{
+            type: "image", value: "/steve-jobs.webp"
+          }}
+        />
         <Features/>
         <Screenshots/>
         <CTA/>
