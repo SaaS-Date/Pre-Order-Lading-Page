@@ -37,29 +37,28 @@ export function CTA() {
     setError(null)
 
     try {
-      // Enviando o e-mail para o backend
       const response = await fetch("http://localhost:5000/send-email-pre-order", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
+          "X-Api-Key": "HbcLrVAmYyxeG1dQRNSYFqbnTc3GPFB7pvOkYY0k5eTKRNVpbcKhu87pf94SKMsIt33lQhutUCSDyh9abAGDh8y3POw59ZbwubGO0JJ3wR0VRF49XbsWfbJiiZvWr1Fq"
         },
         body: JSON.stringify({ email_customer: email }),
       })
     
-      // Se a resposta não for bem-sucedida, tentar extrair o erro do backend
       if (!response.ok) {
-        const errorData = await response.json() // Tenta pegar o erro retornado pelo backend
+        const errorData = await response.json()
         throw new Error(errorData.message || "Ocorreu um erro ao processar seu pedido.") 
       }
     
-      // Redirecionando após sucesso
+    
       await response.json()
       router.push("/success")
     } catch (err) {
       if (err instanceof Error) {
-        setError(err.message) // Exibe a mensagem de erro retornada pela API
+        setError(err.message)
       } else {
-        setError("Ocorreu um erro inesperado. Tente novamente.") // Erro genérico caso seja algo inesperado
+        setError("Ocorreu um erro inesperado. Tente novamente.")
       }
       setIsLoading(false)
     }

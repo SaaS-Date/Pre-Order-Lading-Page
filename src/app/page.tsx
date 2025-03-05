@@ -10,7 +10,26 @@ import { Screenshots } from "@/components/screenshots_system/Screenshots-system"
 export default function Home() {
   return (
     <main className="flex flex-col min-h-screen">
-      <Header/>
+      <Header
+        icon={{
+          icon_src: "/steve-jobs.webp",
+          icon_alt: "logo_SaaS",
+          href: "/",
+          width: 50,
+          height: 50 
+        }}
+        links={[
+          {href: "/features", label: "Features"},
+          {href: "/pricing", label: "Pricing"},
+          {href: "/faq", label: "FAQ"}
+        ]}
+        button={{
+          label: "Criar Album",
+          color_font: "#FFFFFF"
+        }}
+        backgroundColor="bg-gray-900"
+        border_b={true}
+      />
       <section className="flex-1">
         <Hero/>
         <Features/>
