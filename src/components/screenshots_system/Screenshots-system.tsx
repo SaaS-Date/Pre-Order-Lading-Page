@@ -12,27 +12,20 @@ interface Screenshot {
   imageUrl: string
 }
 
-
 interface ScreenshotProps {
-  
+  title: {
+    value: string,
+    color_font?: string
+  }
+  sub_title: {
+    value: string,
+    color_font?: string
+  }
+  screenshots: Screenshot[]
 }
 
-const screenshots: Screenshot[] = [
-  {
-    id: 1,
-    title: "Preview Album (Basic)",
-    description: "Complete dashboard view with all main features and analytics.",
-    imageUrl: "/steve-jobs.webp",
-  },
-  {
-    id: 2,
-    title: "Preview Album (Premium) 👑",
-    description: "Powerful user management interface with role-based access control.",
-    imageUrl: "/steve-jobs.webp",
-  }
-]
 
-export function Screenshots() {
+export function Screenshots({title, sub_title, screenshots}: ScreenshotProps) {
   const [selectedImage, setSelectedImage] = useState<Screenshot | null>(null)
 
   return (
@@ -40,9 +33,9 @@ export function Screenshots() {
       <div className="container px-4 md:px-6 mx-auto">
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
           <div className="space-y-2">
-            <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">System Screenshots</h2>
-            <p className="max-w-[900px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400">
-              Take a look at our powerful features and intuitive interface
+            <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl" style={{color: title.color_font}}>{title.value}</h2>
+            <p className="max-w-[900px] text-gray-500 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed dark:text-gray-400" style={{color: sub_title.color_font}}>
+              {sub_title.value}
             </p>
           </div>
         </div>

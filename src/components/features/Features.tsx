@@ -11,7 +11,7 @@ interface FeaturesProps {
   title: {
     value: string,
     color_font?: string
-  },
+  }
   features: EachFeature[]
 }
 

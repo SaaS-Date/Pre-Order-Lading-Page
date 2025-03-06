@@ -6,7 +6,7 @@ import { Header } from "@/components/header/Header";
 import { Hero } from "@/components/hero/Hero";
 import { Screenshots } from "@/components/screenshots_system/Screenshots-system";
 import { features } from "@/components/features/feature_data";
-
+import { screenshots } from "@/components/screenshots_system/screenshots_data";
 
 export default function Home() {
   return (
@@ -45,11 +45,19 @@ export default function Home() {
         />
         <Features
         title={{
-          value: "Funcionalidades"
+          value: "Funcionalidades do"
         }}
         features={features}
         />
-        <Screenshots/>
+        <Screenshots
+          title={{
+            value: "Preview do album"
+          }}
+          sub_title={{
+            value:"Veja como vai ficar o seu album, clicando no preview"
+          }}
+          screenshots={screenshots}
+        />
         <CTA/>
         <FAQ/>
       </section>
