@@ -5,6 +5,7 @@ import { Footer } from "@/components/footer/Footer";
 import { Header } from "@/components/header/Header";
 import { Hero } from "@/components/hero/Hero";
 import { Screenshots } from "@/components/screenshots_system/Screenshots-system";
+import { features } from "@/components/features/feature_data";
 
 
 export default function Home() {
@@ -42,7 +43,12 @@ export default function Home() {
             type: "image", value: "/steve-jobs.webp"
           }}
         />
-        <Features/>
+        <Features
+        title={{
+          value: "Funcionalidades"
+        }}
+        features={features}
+        />
         <Screenshots/>
         <CTA/>
         <FAQ/>

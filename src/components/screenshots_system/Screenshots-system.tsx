@@ -12,6 +12,11 @@ interface Screenshot {
   imageUrl: string
 }
 
+
+interface ScreenshotProps {
+  
+}
+
 const screenshots: Screenshot[] = [
   {
     id: 1,
