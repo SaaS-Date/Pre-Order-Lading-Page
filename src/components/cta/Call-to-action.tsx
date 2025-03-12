@@ -1,7 +1,6 @@
 "use client"
 
 import type React from "react"
-
 import { useRouter } from "next/navigation"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
@@ -24,7 +23,6 @@ export function CTA() {
     event.preventDefault()
     setIsLoading(true)
 
-    // Validando o email com o Zod
     const result = emailSchema.safeParse({ email })
 
     if (!result.success) {
@@ -37,11 +35,10 @@ export function CTA() {
     setError(null)
 
     try {
-      const response = await fetch("http://localhost:5000/send-email-pre-order", {
+      const response = await fetch("http://localhost:5000/email/pre-order", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
-          "X-Api-Key": "HbcLrVAmYyxeG1dQRNSYFqbnTc3GPFB7pvOkYY0k5eTKRNVpbcKhu87pf94SKMsIt33lQhutUCSDyh9abAGDh8y3POw59ZbwubGO0JJ3wR0VRF49XbsWfbJiiZvWr1Fq"
         },
         body: JSON.stringify({ email_customer: email }),
       })

@@ -1,0 +1,11 @@
+{
+  "Home": {
+    "header": {
+      "link_sobre_nos": "Sobre Nós",
+      "link_como_funciona": "Como funciona",
+      "link_faq": "FAQ",
+      "link_planos": "Planos",
+      "button": "Criar Álbum"
+    }
+  }
+}
