@@ -1,12 +1,16 @@
 {
-    "Home": {
-      "header": {
-        "link_sobre_nos": "About Us",
-        "link_como_funciona": "How it works",
-        "link_faq": "FAQ",
-        "link_planos": "Plans",
-        "button": "Create Album"
-      }
+  "Home": {
+    "header": {
+      "link_sobre_nos": "About Us",
+      "link_como_funciona": "How It Works",
+      "link_faq": "FAQ",
+      "link_planos": "Plans",
+      "button": "Create Album"
+    },
+    "hero": {
+      "title_phrase_one": "Surprise someone who",
+      "title_phrase_two": "you admire ",
+      "title_phrase_three": "for a lifetime!"
     }
   }
-  
+}

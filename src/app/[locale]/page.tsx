@@ -13,23 +13,7 @@ export default function Home() {
     <main className="flex flex-col min-h-screen">
       <Header/>
       <section className="flex-1">
-        <Hero
-          title_one= {{
-            value: "A mudanca de vida comeca aqui",
-          }}
-          sub_title={{
-            value: "Conheca o produto que steve jobs nao conseguiu construir"
-          }}
-          banner_background={{
-            type: "image", value: "/steve-jobs.webp"
-          }}
-        />
-        <Features
-        title={{
-          value: "Funcionalidades do"
-        }}
-        features={features}
-        />
+        <Hero/>
         <Screenshots
           title={{
             value: "Preview do album"

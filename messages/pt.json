@@ -6,6 +6,11 @@
       "link_faq": "FAQ",
       "link_planos": "Planos",
       "button": "Criar Álbum"
+    },
+    "hero": {
+      "title_phrase_one": "Surpreenda alguém que",
+      "title_phrase_two": "você admira ",
+      "title_phrase_three": "para a vida toda!"
     }
   }
 }
