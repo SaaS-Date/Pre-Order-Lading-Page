@@ -24,10 +24,11 @@ export function Hero() {
               className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none text-white"
             >
               {t("title_phrase_one")} <br /> {t("title_phrase_two")} 
-              <span id="multipleStrings" className="text-[#B58CFA]">  {t("title_phrase_three")}</span>
+              <span id="multipleStrings" className="text-[#B58CFA]">{t("title_phrase_three")}</span>
             </h1>
-            <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl dark:text-gray-400">
-              Conheça o produto que Steve Jobs não conseguiu construir
+            <p className="mx-auto max-w-[700px] text-[#EEEDEE] text-[18px] font-light">
+              {t("sub_title")} <span className="font-semibold"> {t("key_sub_title_one")} </span> {t("e")} <span className="font-semibold">{t("key_sub_title_two")}</span>
+              {t("sub_tile_two")}
             </p>
           </div>
           <div className="space-x-4"></div>

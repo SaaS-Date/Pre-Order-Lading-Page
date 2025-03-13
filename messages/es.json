@@ -10,7 +10,18 @@
     "hero": {
       "title_phrase_one": "Sorprende a alguien que",
       "title_phrase_two": "admiras ",
-      "title_phrase_three": "para toda la vida!"
-    }
+      "title_phrase_three": "para toda la vida!",
+      "key_sub_title_one": "álbum digital",
+      "key_sub_title_two": "regala ",
+      "e": "y",
+      "sub_title": "Guarda el amor en un",
+      "sub_tile_two": "con momentos inolvidables"
+    },
+    "features": {
+      "title_one": "Tu álbum en ",
+      "number": "cuatro",
+      "title_two": "pasos",
+      "sub_title": "Sorprende a quien amas con un libro personalizado con tus recuerdos"
+}
   }
 }

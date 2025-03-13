@@ -8,9 +8,60 @@
       "button": "Criar Álbum"
     },
     "hero": {
-      "title_phrase_one": "Surpreenda alguém que",
-      "title_phrase_two": "você admira ",
-      "title_phrase_three": "para a vida toda!"
+      "title_phrase_one": "Surpreenda alguém que você",
+      "title_phrase_two": "admira ",
+      "title_phrase_three": "para a vida toda!",
+      "key_sub_title_one": "álbum digital",
+      "key_sub_title_two": "presenteie ",
+      "e": "e",
+      "sub_title": "Guarde o amor em um",
+      "sub_tile_two": "com momentos inesquecíveis"
+    },
+    "features" : {
+      "title_one": "Seu álbum em ",
+      "number": "quatro",
+      "title_two": "passos",
+      "sub_title": "Surpreenda quem você ama com um book personalizado com suas memórias ",
+      "steps": {
+        "step_one": {
+          "title": "1. Preenchimento de formulário",
+          "description": "Siga as etapas preenchendo o formulário com seus dados"
+        },
+        "step_two": {
+          "title": "2. Pagamento seguro",
+          "description": "Faça o pagamento de forma segura com Cartão de Crédito ou PIX"
+        },
+        "step_three": {
+          "title": "3. Geramos seu código QR e link",
+          "description": "Você receberá um QR code e um link via email para acessar a página personalizada"
+        },
+        "step_four": {
+          "title": "4. Envie para sua pessoa especial",
+          "description": "Faça uma surpresa compartilhando o link ou o QR code"
+        }
+      }
+    },
+    "screenshots": {
+      "title": "Preview dos álbums",
+      "sub_title": "Veja como seu book ficará e escolha entre nossos modelos exclusivos!",
+      "previews": {
+        "one": {
+          "title": "Álbum básico",
+          "description": "Tema padrão com algumas opções de animações e objetos",
+          "plus_one": "4 fotos",
+          "plus_two": "1 gif",
+          "less_one": "Elementos personalizados",
+          "button": "Abrir modelo"
+        },
+        "two": {
+          "title": "Álbum Completo",
+          "description": "Tema padrão com algumas opções de animações e objetos",
+          "plus_one": "8 fotos",
+          "plus_two": "2 GIF",
+          "less_one": "Elementos personalizados e exclusivos",
+          "button": "Abrir modelo"
+        }
+      }
     }
   }
 }
