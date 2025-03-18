@@ -22,6 +22,82 @@
       "number": "cuatro",
       "title_two": "pasos",
       "sub_title": "Sorprende a quien amas con un libro personalizado con tus recuerdos"
+    },
+    "CTA": {
+      "tittle": "Sé el primero en crear tu",
+      "sub_title": "¡Anticípate! Haz tu pre-save y accede al sistema antes que los demás",
+      "placeholder_input": "Introduce tu correo electrónico",
+      "button": "Reservar",
+      "description": "Al registrarte, aceptas nuestros Términos de Servicio y Política de Privacidad.",
+      "button_onclick": "Añadiendo a la lista"
+    },
+    "FAQ": {
+    "title": "Preguntas Frecuentes",
+    "sub_title": "Principales dudas sobre el sistema",
+    "question_one": {
+      "question": "¿Cuándo estará disponible ProductX?",
+      "response": "ProductX se lanzará oficialmente en el tercer trimestre de 2024. Los clientes que hagan la precompra tendrán acceso anticipado a partir del segundo trimestre de 2024."
+    },
+    "question_two": {
+      "question": "¿Qué métodos de pago aceptan?",
+      "response": "Aceptamos todas las principales tarjetas de crédito y débito a través de Mercado Pago, nuestro procesador de pagos seguro. Hay múltiples opciones de pago disponibles según tu ubicación."
+    },
+    "question_three": {
+      "question": "¿Puedo cancelar mi precompra?",
+      "response": "Sí, puedes cancelar tu precompra en cualquier momento antes del lanzamiento del producto y recibir un reembolso completo. Contacta a nuestro equipo de soporte para recibir ayuda."
+    },
+    "question_four": {
+      "question": "¿Existe garantía de reembolso?",
+      "response": "Sí, ofrecemos una garantía de reembolso de 30 días a partir del día que tengas acceso a ProductX. Si no estás satisfecho, te devolveremos el dinero."
+    },
+    "question_five": {
+      "question": "¿Qué tipo de soporte está incluido?",
+      "response": "Todos los planes incluyen soporte por correo electrónico. Los planes Pro y Enterprise incluyen soporte prioritario con tiempos de respuesta más rápidos y canales dedicados."
+    },
+    "question_six": {
+      "question": "¿Hay diferencia entre el precio de la precompra y el precio regular?",
+      "response": "Sí, los clientes que hagan la precompra obtienen un precio especial que se mantendrá durante el primer año. El precio regular será más alto después del lanzamiento oficial."
+    },
+    "question_seven": {
+      "question": "¿Ofrecen funciones específicas para empresas?",
+      "response": "Sí, nuestro plan Enterprise incluye funciones personalizadas, gestión de cuentas dedicada y opciones especiales de implementación. Contacta a nuestro equipo de ventas para más detalles."
+    },
+    "question_eght": {
+      "question": "¿Puedo actualizar mi plan más adelante?",
+      "response": "Sí, puedes actualizar tu plan en cualquier momento. Calcularemos la diferencia proporcional y la aplicaremos a tu nuevo plan."
+    }
+  },
+  "footer": {
+  "contacts": {
+    "title": "Contactos",
+    "description": "Ponte en contacto con nuestro equipo para resolver tus principales dudas."
+  },
+  "product": {
+    "title": "Producto",
+    "about_us": "Sobre Nosotros",
+    "how_work": "Cómo funciona",
+    "faq": "Preguntas Frecuentes",
+    "plans": "Planes"
+  },
+  "albuns": {
+    "title": "Álbumes",
+    "for_couples": "Para parejas",
+    "for_friends": "Para amigos",
+    "for_families": "Para familias",
+    "for_animals": "Para mascotas",
+    "for_memories": "Para recuerdos"
+  },
+  "register": {
+    "title": "Regístrate",
+    "description": "Regístrate para obtener acceso anticipado al sistema Bookly y asegúrate cupones exclusivos.",
+    "placeholder_email": "Tu mejor correo",
+    "message_observation": "Al registrarte, aceptas nuestros Términos de Servicio y Política de Privacidad."
+  },
+  "last": {
+    "terms_of_service": "Términos de Servicio",
+    "privacy_policy": "Política de Privacidad",
+    "cookie_policy": "Política de Cookies"
+  }
 }
   }
 }

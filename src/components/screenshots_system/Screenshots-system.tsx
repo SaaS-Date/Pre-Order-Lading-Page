@@ -101,17 +101,16 @@ export function Screenshots({}) {
         <DialogContent className="max-w-5xl w-full p-4">
           {selectedImage && (
             <div className="flex flex-col items-center text-center">
-              <div className="relative aspect-[16/9] w-full">
+              <div className="relative aspect-[4/3] w-full">
                 <Image
                   src={selectedImage.imageUrl || "/placeholder.svg"}
                   alt={selectedImage.title}
                   fill
-                  className="object-contain"
+                  className="rounded-2xl"
                 />
               </div>
               <div className="p-4 bg-white dark:bg-gray-950 flex flex-col items-center">
                 <DialogTitle className="text-lg font-semibold mb-1">{selectedImage.title}</DialogTitle>
-                <p className="text-gray-500 dark:text-gray-400">{selectedImage.description}</p>
               </div>
             </div>
           )}

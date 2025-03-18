@@ -62,6 +62,82 @@
           "button": "Abrir modelo"
         }
       }
+    },
+    "CTA": {
+      "tittle": "Quer ser o primeiro a criar seu",
+      "sub_title": "Antecipe-se! Faça seu pré-save e tenha acesso ao sistema antes de todos os outros",
+      "placeholder_input": "Coloque o seu e-mail",
+      "button": "Reservar",
+      "description": "Ao assinar, você concorda com nossos Termos de Serviço e Política de Privacidade.",
+      "button_onclick": "Adicionando na lista"
+    },
+    "FAQ": {
+      "title": "Perguntas Frequentes",
+      "sub_title": "Principais dúvidas sobre o sistema",
+      "question_one": {
+        "question":"Quando o ProductX estará disponível?",
+        "response": "O ProductX será lançado oficialmente no terceiro trimestre de 2024. Clientes que fizerem a pré-venda terão acesso antecipado a partir do segundo trimestre de 2024."
+      },
+      "question_two": {
+        "question":"Quais métodos de pagamento vocês aceitam?",
+        "response": "Aceitamos todos os principais cartões de crédito e débito através do Mercado Pago, nosso processador de pagamentos seguro. Várias opções de pagamento estão disponíveis dependendo da sua localização."
+      },
+      "question_three": {
+        "question":"Posso cancelar a minha pré-venda?",
+        "response": "Sim, você pode cancelar sua pré-venda a qualquer momento antes do lançamento do produto e receber um reembolso total. Entre em contato com nossa equipe de suporte para obter assistência."
+      },
+      "question_four": {
+        "question":"Existe garantia de reembolso?",
+        "response": "Sim, oferecemos uma garantia de reembolso de 30 dias a partir do dia em que você tiver acesso ao ProductX. Se não ficar satisfeito, faremos o reembolso completo."
+      },
+      "question_five": {
+        "question":"Que tipo de suporte está incluído?",
+        "response": "Todos os planos incluem suporte por e-mail. Os planos Pro e Enterprise incluem suporte prioritário com tempos de resposta mais rápidos e canais de suporte dedicados."
+      },
+      "question_six": {
+        "question":"Há alguma diferença entre os preços da pré-venda e o preço regular?",
+        "response": "Sim, você pode fazer upgrade do seu plano a qualquer momento. Calcularemos o valor proporcional e aplicaremos ao seu novo plano."
+      },
+      "question_seven": {
+        "question":"Vocês oferecem recursos específicos para empresas?",
+        "response": "Sim, clientes da pré-venda recebem um preço especial de lançamento que será mantido durante o primeiro ano. Após o lançamento oficial, o preço regular será mais alto."
+      },
+      "question_eght": {
+        "question": "Posso fazer upgrade do meu plano depois?",
+        "response": "Sim, você pode atualizar seu plano a qualquer momento. Calcularemos a diferença proporcional e aplicaremos ao seu novo plano."
+      }
+    },
+    "footer": {
+      "contacts": {
+        "title": "Contatos",
+        "description": "Entre em contato com nossa equipe para tirar suas principais dúvidas."
+      },
+      "product": {
+        "title": "Produto",
+        "about_us": "Sobre Nós",
+        "how_work": "Como funciona",
+        "faq": "FAQ",
+        "plans": "Planos"
+      },
+      "albuns": {
+        "title": "Albums",
+        "for_couples": "Para namorados",
+        "for_friends": "Para amigos",
+        "for_families": "Para familiares",
+        "for_animals": "Para animais",
+        "for_memories": "Para memórias"
+      },
+      "register": {
+        "title": "Registre-se",
+        "description": "Inscreva-se para não perder acesso antecipado do sistema bookly e garanta cupons exclusivos",
+        "placeholder_email": "Seu melhor e-mail",
+        "message_observation": "Ao assinar, você concorda com nossos Termos de Serviço e Política de Privacidade."
+      },
+      "last": {
+        "terms_of_service": "Termos de Serviço",
+        "privacy_policy": "Política de Privacidade",
+        "cookie_policy": "Política de Cookies"
+      }
     }
   }
 }

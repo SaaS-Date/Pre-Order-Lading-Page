@@ -22,6 +22,82 @@
       "number": "four",
       "title_two": "steps",
       "sub_title": "Surprise your loved one with a personalized book of your memories"
-}
+    },
+    "CTA": {
+      "tittle": "Be the first to create your",
+      "sub_title": "Get ahead! Pre-save and gain access to the system before anyone else",
+      "placeholder_input": "Enter your email",
+      "button": "Reserve",
+      "description": "By signing up, you agree to our Terms of Service and Privacy Policy.",
+      "button_onclick": "Adding to the list"
+  },
+  "FAQ": {
+    "title": "Frequently Asked Questions",
+    "sub_title": "Common questions about the system",
+    "question_one": {
+      "question": "When will ProductX be available?",
+      "response": "ProductX will be officially launched in Q3 2024. Pre-order customers will get early access starting Q2 2024."
+    },
+    "question_two": {
+      "question": "What payment methods do you accept?",
+      "response": "We accept all major credit and debit cards through Mercado Pago, our secure payment processor. Multiple payment options are available depending on your location."
+    },
+    "question_three": {
+      "question": "Can I cancel my pre-order?",
+      "response": "Yes, you can cancel your pre-order at any time before the product launch and receive a full refund. Contact our support team for assistance."
+    },
+    "question_four": {
+      "question": "Is there a money-back guarantee?",
+      "response": "Yes, we offer a 30-day money-back guarantee starting from the day you get access to ProductX. If you're not satisfied, we'll provide a full refund."
+    },
+    "question_five": {
+      "question": "What kind of support is included?",
+      "response": "All plans include email support. Pro and Enterprise plans include priority support with faster response times and dedicated support channels."
+    },
+    "question_six": {
+      "question": "Is there a difference between pre-order and regular pricing?",
+      "response": "Yes, pre-order customers get special early-bird pricing that's locked in for the first year. Regular pricing will be higher after the official launch."
+    },
+    "question_seven": {
+      "question": "Do you offer enterprise-specific features?",
+      "response": "Yes, our Enterprise plan includes custom features, dedicated account management, and special deployment options. Contact our sales team for details."
+    },
+    "question_eght": {
+      "question": "Can I upgrade my plan later?",
+      "response": "Yes, you can upgrade your plan at any time. We'll prorate the difference and apply it to your new plan."
+    }
+  },
+  "footer": {
+  "contacts": {
+    "title": "Contacts",
+    "description": "Get in touch with our team to clarify your main questions."
+  },
+  "product": {
+    "title": "Product",
+    "about_us": "About Us",
+    "how_work": "How it works",
+    "faq": "FAQ",
+    "plans": "Plans"
+  },
+  "albuns": {
+    "title": "Albums",
+    "for_couples": "For couples",
+    "for_friends": "For friends",
+    "for_families": "For families",
+    "for_animals": "For pets",
+    "for_memories": "For memories"
+  },
+  "register": {
+    "title": "Sign Up",
+    "description": "Sign up to secure early access to the Bookly system and get exclusive coupons.",
+    "placeholder_email": "Your best email",
+    "message_observation": "By signing up, you agree to our Terms of Service and Privacy Policy."
+  },
+  "last": {
+    "terms_of_service": "Terms of Service",
+    "privacy_policy": "Privacy Policy",
+    "cookie_policy": "Cookie Policy"
   }
+}
+}
 }

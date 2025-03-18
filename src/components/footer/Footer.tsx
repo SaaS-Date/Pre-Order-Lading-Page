@@ -2,28 +2,32 @@ import Link from "next/link"
 import { Input } from "@/components/ui/input"
 import { Button } from "@/components/ui/button"
 import { Facebook, Twitter, Instagram, Linkedin, Youtube, Mail, Phone, MapPin, ArrowRight } from "lucide-react"
+import { useTranslations } from "next-intl"
 
 export function Footer() {
+
+  const t = useTranslations("Home.footer")
+
   return (
-    <footer className="w-full border-t bg-gray-50 dark:bg-gray-900">
+    <footer className="w-full border-t bg-[url(/bg_back.png)] dark:bg-gray-900 text-white">
   <div className="container px-4 md:px-6 py-16 mx-auto">
     <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4">
       {/* Company Info */}
       <div className="space-y-4">
-        <h3 className="text-lg font-semibold">ProductX</h3>
-        <p className="text-sm text-gray-500 dark:text-gray-400">
-          Transforming the way teams work with AI-powered productivity tools.
+        <h3 className="text-lg font-semibold">{t("contacts.title")}</h3>
+        <p className="text-sm">
+          {t("contacts.description")}
         </p>
-        <div className="space-y-2">
-          <div className="flex items-center gap-2 text-sm text-gray-500 dark:text-gray-400">
+        <div className="space-y-2 text-white">
+          <div className="flex items-center gap-2 text-sm">
             <Mail className="h-4 w-4" />
             <span>contact@productx.com</span>
           </div>
-          <div className="flex items-center gap-2 text-sm text-gray-500 dark:text-gray-400">
+          <div className="flex items-center gap-2 text-sm">
             <Phone className="h-4 w-4" />
             <span>+1 (555) 123-4567</span>
           </div>
-          <div className="flex items-center gap-2 text-sm text-gray-500 dark:text-gray-400">
+          <div className="flex items-center gap-2 text-sm">
             <MapPin className="h-4 w-4" />
             <span>123 Innovation Street, Tech City, TC 12345</span>
           </div>
@@ -32,167 +36,146 @@ export function Footer() {
 
       {/* Product Links */}
       <div className="space-y-4">
-        <h3 className="text-lg font-semibold">Product</h3>
-        <ul className="space-y-2">
+        <h3 className="text-lg font-semibold">{t("product.title")}</h3>
+        <ul className="space-y-2 text-white">
           <li>
             <Link
               href="#features"
-              className="text-sm text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-100"
+              className="text-sm"
             >
-              Features
+              {t("product.about_us")}
             </Link>
           </li>
           <li>
             <Link
               href="#pricing"
-              className="text-sm text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-100"
+              className="text-sm"
             >
-              Pricing
+              {t("product.how_work")}
             </Link>
           </li>
           <li>
             <Link
               href="#faq"
-              className="text-sm text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-100"
+              className="text-sm"
             >
-              FAQ
+              {t("product.faq")}
             </Link>
           </li>
           <li>
             <Link
               href="/changelog"
-              className="text-sm text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-100"
+              className="text-sm"
             >
-              Changelog
-            </Link>
-          </li>
-          <li>
-            <Link
-              href="/documentation"
-              className="text-sm text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-100"
-            >
-              Documentation
+              {t("product.plans")}
             </Link>
           </li>
         </ul>
       </div>
 
       {/* Company Links */}
-      <div className="space-y-4">
-        <h3 className="text-lg font-semibold">Company</h3>
+      <div className="space-y-4 text-white">
+        <h3 className="text-lg font-semibold">{t("albuns.title")}</h3>
         <ul className="space-y-2">
           <li>
             <Link
               href="/about"
-              className="text-sm text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-100"
+              className="text-sm"
             >
-              About Us
+              {t("albuns.for_couples")}
             </Link>
           </li>
           <li>
             <Link
               href="/careers"
-              className="text-sm text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-100"
+              className="text-sm"
             >
-              Careers
+              {t("albuns.for_friends")}
             </Link>
           </li>
           <li>
             <Link
               href="/blog"
-              className="text-sm text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-100"
+              className="text-sm"
             >
-              Blog
+              {t("albuns.for_families")}
             </Link>
           </li>
           <li>
             <Link
               href="/press"
-              className="text-sm text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-100"
+              className="text-sm"
             >
-              Press
-            </Link>
-          </li>
-          <li>
-            <Link
-              href="/partners"
-              className="text-sm text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-100"
-            >
-              Partners
+              {t("albuns.for_animals")}
             </Link>
           </li>
         </ul>
       </div>
 
       {/* Newsletter Signup */}
-      <div className="space-y-4">
-        <h3 className="text-lg font-semibold">Stay Updated</h3>
-        <p className="text-sm text-gray-500 dark:text-gray-400">
-          Subscribe to our newsletter for product updates, news, and exclusive offers.
+      <div className="space-y-4 text-white">
+        <h3 className="text-lg font-semibold">{t("register.title")}</h3>
+        <p className="text-sm">
+          {t("register.description")}
         </p>
         <div className="flex flex-col gap-2">
           <div className="flex gap-2">
-            <Input type="email" placeholder="Enter your email" className="max-w-lg flex-1" />
-            <Button size="icon">
+            <input placeholder={t("register.placeholder_email")} className="flex-1 placeholder-white border placeholder:font-extralight border-white focus:border-white focus:ring-0 focus:outline-none bg-transparent px-3 py-2 rounded-md text-sm" />
+            <Button size="icon" className="hidden md:inline-flex bg-gradient-to-r from-[#5B3191] to-[#B58CFA] text-white hover:brightness-110 transition-all duration-200">
               <ArrowRight className="h-4 w-4" />
             </Button>
           </div>
-          <p className="text-xs text-gray-500 dark:text-gray-400">
-            By subscribing, you agree to our Privacy Policy and consent to receive updates.
+          <p className="text-xs">
+            {t("register.message_observation")}
           </p>
         </div>
       </div>
     </div>
 
     {/* Social Links and Bottom Bar */}
-    <div className="mt-12 pt-8 border-t border-gray-200 dark:border-gray-800">
+    <div className="mt-12 pt-8 border-t border-gray-200 text-white">
       <div className="flex flex-col gap-4 sm:flex-row items-center justify-between">
         <div className="flex gap-4">
           <Link
             href="https://facebook.com"
-            className="text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-100"
           >
             <Facebook className="h-5 w-5" />
             <span className="sr-only">Facebook</span>
           </Link>
           <Link
             href="https://twitter.com"
-            className="text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-100"
           >
             <Twitter className="h-5 w-5" />
             <span className="sr-only">Twitter</span>
           </Link>
           <Link
             href="https://instagram.com"
-            className="text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-100"
           >
             <Instagram className="h-5 w-5" />
             <span className="sr-only">Instagram</span>
           </Link>
           <Link
             href="https://linkedin.com"
-            className="text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-100"
           >
             <Linkedin className="h-5 w-5" />
             <span className="sr-only">LinkedIn</span>
           </Link>
           <Link
             href="https://youtube.com"
-            className="text-gray-500 hover:text-gray-900 dark:text-gray-400 dark:hover:text-gray-100"
           >
             <Youtube className="h-5 w-5" />
             <span className="sr-only">YouTube</span>
           </Link>
         </div>
-        <div className="flex flex-wrap justify-center gap-4 text-xs text-gray-500 dark:text-gray-400">
-          <Link href="/terms" className="hover:underline">
-            Terms of Service
+        <div className="flex flex-wrap justify-center gap-4 text-xs text-white">
+          <Link href="/terms" className="hover:no-underline">
+            {t("last.terms_of_service")}
           </Link>
-          <Link href="/privacy" className="hover:underline">
-            Privacy Policy
+          <Link href="/privacy" className="hover:no-underline">
+            {t("last.privacy_policy")}
           </Link>
-          <Link href="/cookies" className="hover:underline">
-            Cookie Policy
+          <Link href="/cookies" className="hover:no-underline">
+            {t("last.cookie_policy")}
           </Link>
           <span>© {new Date().getFullYear()} ProductX Inc. All rights reserved.</span>
         </div>

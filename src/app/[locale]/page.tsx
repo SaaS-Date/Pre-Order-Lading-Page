@@ -13,7 +13,7 @@ export default function Home() {
       <section className="flex-1">
         <Hero/>
         {/* <Features/> */}
-        <Screenshots/>
+        {/* <Screenshots/> */}
         <CTA/>
         <FAQ/>
       </section>
