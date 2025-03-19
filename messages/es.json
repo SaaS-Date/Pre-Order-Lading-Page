@@ -21,7 +21,25 @@
       "title_one": "Tu álbum en ",
       "number": "cuatro",
       "title_two": "pasos",
-      "sub_title": "Sorprende a quien amas con un libro personalizado con tus recuerdos"
+      "sub_title": "Sorprende a tu ser querido con un libro personalizado lleno de recuerdos",
+      "steps": {
+        "step_one": {
+          "title": "1. Completa el formulario",
+          "description": "Sigue los pasos completando el formulario con tus datos"
+        },
+        "step_two": {
+          "title": "2. Pago seguro",
+          "description": "Realiza el pago de forma segura con Tarjeta de Crédito o PIX"
+        },
+        "step_three": {
+          "title": "3. Generamos tu código QR y enlace",
+          "description": "Recibirás un código QR y un enlace por correo electrónico para acceder a la página personalizada"
+        },
+        "step_four": {
+          "title": "4. Envíalo a tu persona especial",
+          "description": "Haz una sorpresa compartiendo el enlace o el código QR"
+        }
+      }
     },
     "CTA": {
       "tittle": "Sé el primero en crear tu",
@@ -74,18 +92,18 @@
   },
   "product": {
     "title": "Producto",
-    "about_us": "Sobre Nosotros",
     "how_work": "Cómo funciona",
     "faq": "Preguntas Frecuentes",
-    "plans": "Planes"
+    "plans": "Planes",
+    "register": "Crear Álbum"
   },
   "albuns": {
     "title": "Álbumes",
     "for_couples": "Para parejas",
-    "for_friends": "Para amigos",
-    "for_families": "Para familias",
-    "for_animals": "Para mascotas",
-    "for_memories": "Para recuerdos"
+    "for_friends": "Para amigos (próximamente)",
+    "for_families": "Para familias (próximamente)",
+    "for_animals": "Para mascotas (próximamente)",
+    "for_memories": "Para recuerdos (próximamente)"
   },
   "register": {
     "title": "Regístrate",
@@ -99,5 +117,10 @@
     "cookie_policy": "Política de Cookies"
   }
 }
-  }
+  },
+  "SuccessPage": {
+    "title": "¡Añadido con Éxito!",
+    "description": "Gracias por tu pedido anticipado. Nos pondremos en contacto contigo pronto con más detalles.",
+    "button": "Volver a Inicio"
+}
 }

@@ -42,7 +42,7 @@
       }
     },
     "screenshots": {
-      "title": "Preview dos álbums",
+      "title": "Planos dos álbuns",
       "sub_title": "Veja como seu book ficará e escolha entre nossos modelos exclusivos!",
       "previews": {
         "one": {
@@ -114,18 +114,18 @@
       },
       "product": {
         "title": "Produto",
-        "about_us": "Sobre Nós",
         "how_work": "Como funciona",
         "faq": "FAQ",
-        "plans": "Planos"
+        "plans": "Planos",
+        "register": "Criar Álbum"
       },
       "albuns": {
         "title": "Albums",
         "for_couples": "Para namorados",
-        "for_friends": "Para amigos",
-        "for_families": "Para familiares",
-        "for_animals": "Para animais",
-        "for_memories": "Para memórias"
+        "for_friends": "Para amigos (em breve)",
+        "for_families": "Para familiares (em breve)",
+        "for_animals": "Para animais (em breve)",
+        "for_memories": "Para memórias (em breve)"
       },
       "register": {
         "title": "Registre-se",
@@ -139,5 +139,10 @@
         "cookie_policy": "Política de Cookies"
       }
     }
+  },
+  "SuccessPage": {
+    "title": "Adicionado com Sucesso!",
+    "description": "Obrigado pela sua pré-encomenda. Entraremos em contato em breve com mais detalhes.",
+    "button": "Retornar para Home"
   }
 }

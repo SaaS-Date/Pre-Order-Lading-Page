@@ -1,8 +1,11 @@
+"use client"
+
 import Link from "next/link"
-import { Input } from "@/components/ui/input"
 import { Button } from "@/components/ui/button"
-import { Facebook, Twitter, Instagram, Linkedin, Youtube, Mail, Phone, MapPin, ArrowRight } from "lucide-react"
+import { Facebook, Twitter, Instagram, Mail, Phone, MapPin, ArrowRight } from "lucide-react"
+
 import { useTranslations } from "next-intl"
+
 
 export function Footer() {
 
@@ -43,14 +46,6 @@ export function Footer() {
               href="#features"
               className="text-sm"
             >
-              {t("product.about_us")}
-            </Link>
-          </li>
-          <li>
-            <Link
-              href="#pricing"
-              className="text-sm"
-            >
               {t("product.how_work")}
             </Link>
           </li>
@@ -64,10 +59,18 @@ export function Footer() {
           </li>
           <li>
             <Link
-              href="/changelog"
+              href="#plans"
               className="text-sm"
             >
               {t("product.plans")}
+            </Link>
+          </li>
+          <li>
+            <Link
+              href="#cta"
+              className="text-sm"
+            >
+              {t("product.register")}
             </Link>
           </li>
         </ul>
@@ -79,7 +82,7 @@ export function Footer() {
         <ul className="space-y-2">
           <li>
             <Link
-              href="/about"
+              href="/"
               className="text-sm"
             >
               {t("albuns.for_couples")}
@@ -87,7 +90,7 @@ export function Footer() {
           </li>
           <li>
             <Link
-              href="/careers"
+              href="/new_feature"
               className="text-sm"
             >
               {t("albuns.for_friends")}
@@ -95,7 +98,7 @@ export function Footer() {
           </li>
           <li>
             <Link
-              href="/blog"
+              href="/new_feature"
               className="text-sm"
             >
               {t("albuns.for_families")}
@@ -103,7 +106,7 @@ export function Footer() {
           </li>
           <li>
             <Link
-              href="/press"
+              href="/new_feature"
               className="text-sm"
             >
               {t("albuns.for_animals")}
@@ -121,9 +124,11 @@ export function Footer() {
         <div className="flex flex-col gap-2">
           <div className="flex gap-2">
             <input placeholder={t("register.placeholder_email")} className="flex-1 placeholder-white border placeholder:font-extralight border-white focus:border-white focus:ring-0 focus:outline-none bg-transparent px-3 py-2 rounded-md text-sm" />
-            <Button size="icon" className="hidden md:inline-flex bg-gradient-to-r from-[#5B3191] to-[#B58CFA] text-white hover:brightness-110 transition-all duration-200">
-              <ArrowRight className="h-4 w-4" />
-            </Button>
+            <Link href="">
+              <Button size="icon" className="hidden md:inline-flex bg-gradient-to-r from-[#5B3191] to-[#B58CFA] text-white hover:brightness-110 transition-all duration-200">
+                <ArrowRight className="h-4 w-4" />
+              </Button>
+            </Link>
           </div>
           <p className="text-xs">
             {t("register.message_observation")}
@@ -138,34 +143,26 @@ export function Footer() {
         <div className="flex gap-4">
           <Link
             href="https://facebook.com"
+            target="_blank"
           >
             <Facebook className="h-5 w-5" />
             <span className="sr-only">Facebook</span>
           </Link>
           <Link
             href="https://twitter.com"
+            target="_blank"
           >
             <Twitter className="h-5 w-5" />
             <span className="sr-only">Twitter</span>
           </Link>
           <Link
             href="https://instagram.com"
+            target="_blank"
           >
             <Instagram className="h-5 w-5" />
             <span className="sr-only">Instagram</span>
           </Link>
-          <Link
-            href="https://linkedin.com"
-          >
-            <Linkedin className="h-5 w-5" />
-            <span className="sr-only">LinkedIn</span>
-          </Link>
-          <Link
-            href="https://youtube.com"
-          >
-            <Youtube className="h-5 w-5" />
-            <span className="sr-only">YouTube</span>
-          </Link>
+          
         </div>
         <div className="flex flex-wrap justify-center gap-4 text-xs text-white">
           <Link href="/terms" className="hover:no-underline">

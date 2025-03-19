@@ -21,7 +21,25 @@
       "title_one": "Your album in ",
       "number": "four",
       "title_two": "steps",
-      "sub_title": "Surprise your loved one with a personalized book of your memories"
+      "sub_title": "Surprise your loved one with a personalized book full of your memories",
+      "steps": {
+        "step_one": {
+          "title": "1. Fill out the form",
+          "description": "Follow the steps by filling out the form with your information"
+        },
+        "step_two": {
+          "title": "2. Secure payment",
+          "description": "Make your payment securely using Credit Card or PIX"
+        },
+        "step_three": {
+          "title": "3. We generate your QR code and link",
+          "description": "You will receive a QR code and a link via email to access the personalized page"
+        },
+        "step_four": {
+          "title": "4. Send it to your special person",
+          "description": "Make a surprise by sharing the link or QR code"
+        }
+      }
     },
     "CTA": {
       "tittle": "Be the first to create your",
@@ -74,18 +92,18 @@
   },
   "product": {
     "title": "Product",
-    "about_us": "About Us",
     "how_work": "How it works",
     "faq": "FAQ",
-    "plans": "Plans"
+    "plans": "Plans",
+    "register": "Create Album"
   },
   "albuns": {
     "title": "Albums",
     "for_couples": "For couples",
-    "for_friends": "For friends",
-    "for_families": "For families",
-    "for_animals": "For pets",
-    "for_memories": "For memories"
+    "for_friends": "For friends (coming Soon)",
+    "for_families": "For families (coming Soon)",
+    "for_animals": "For pets (coming Soon)",
+    "for_memories": "For memories (coming Soon)"
   },
   "register": {
     "title": "Sign Up",
@@ -99,5 +117,10 @@
     "cookie_policy": "Cookie Policy"
   }
 }
+},
+  "SuccessPage": {
+    "title": "Successfully Added!",
+    "description": "Thank you for your pre-order. We will contact you soon with more details.",
+    "button": "Return to Home"
 }
 }

@@ -12,8 +12,8 @@ export default function Home() {
       <Header/>
       <section className="flex-1">
         <Hero/>
-        {/* <Features/> */}
-        {/* <Screenshots/> */}
+        <Features/>
+        <Screenshots/>
         <CTA/>
         <FAQ/>
       </section>
